@@ -14,6 +14,7 @@ for i in range(3):
 for nome, nota in alunos.items():
     soma_notas += nota
 
-    media_notas = soma_notas / len(alunos)  
+    media_notas = soma_notas / len(alunos) 
+
 
     print(f"A média das notas é: {media_notas}")
